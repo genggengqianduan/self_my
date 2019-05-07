@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*           每日好店*/
+
+.left {
+    float: left;
+    display: inline;
+}
+
+.li_st {
+    padding-left: 12px;
+    list-style: none;
+}
+
+.every {
+    .every_l {
+        width: 590px;
+        height: 538px;
+        .every_l_inner {
+            overflow: hidden;
+        }
+    }
+}
+
+.every_l_title {
+    margin-bottom: 0;
+}
+
+
+/*               内容*/
+
+.li_st {
+    li {
+        padding: 6px 0 20px 0;
+        margin-left: 8px;
+        width: 271px;
+        h4 {
+            color: #333;
+            line-height: 42px;
+            height: 42px;
+            font-weight: normal;
+        }
+        .img_every {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            .img_l {
+                position: relative;
+                width: 180px;
+                height: 180px;
+            }
+            h4 {
+                position: absolute;
+                line-height: 42px;
+                height: 42px;
+                overflow: hidden;
+                color: #fff;
+                left: 0;
+                bottom: 0;
+                z-index: 2;
+                font-size: 14px;
+                font-weight: normal;
+                padding-left: 4px;
+            }
+            .img_r {
+                height: 180px;
+                margin-left: 182px;
+                .img_r_1 {
+                    width: 89px;
+                    height: 89px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+
+.every_r {
+    width: 590px;
+    margin-left: 10px;
+    height: 538px;
+}
+
+.title {
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.subtitle {
+    color: #999;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+
+/*               内容  end*/
+
+
+/*           每日好店  end*/

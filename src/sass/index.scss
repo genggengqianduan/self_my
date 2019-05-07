@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+    background: #f5f5f5
+}
+
+body a {
+    color: #3C3C3C;
+}
+
+body a:hover {
+    color: #F40;
+    text-decoration: none;
+}
+
+.clear::after {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+@import '_head';
+@import '_head-log';
+@import '_banner-nav';
+@import '_main_banner';
+@import '_youhaohuo';
+@import 'taoqianggou';
+@import 'tainiule';
+@import 'everyday';
+@import 'fanshion';
+@import 'pinzhi';
+@import 'shihui';
+@import 'remaidanpin';
+@import 'like';
+@import '_footer';

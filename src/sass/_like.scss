@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/*              猜你喜欢*/
+
+
+/*              标题*/
+
+.like {
+    border-bottom: 1px solid #f4f4f4;
+    margin-top: 5px;
+    line-height: 48px;
+    font-size: 20px;
+    h3 {
+        color: #ff242d;
+        em {
+            @include em()
+        }
+    }
+    .like_title:before {
+        background-image: linear-gradient(45deg, #fad961, #ff9f00);
+        background: #ff242d;
+    }
+}
+
+
+/*              内容*/
+
+.like .like_inner {
+    @include list_mi();
+    .like_img {
+        width: 197px;
+        height: 197px;
+        overflow: hidden;
+        img {
+            width: 197px;
+            height: 197px;
+        }
+    }
+    h4 {
+        margin-top: 7px;
+        line-height: 22px;
+        height: 44px;
+        font-size: 14px;
+        color: #666;
+        font-weight: normal;
+        transition: color 0.3s;
+        overflow: hidden;
+    }
+    .like_jg {
+        margin-top: 22px;
+    }
+}
+
+.like_inner:hover {
+    border: 1px solid red;
+    transition: border-color 0.3s;
+}
+
+.like_inner:hover .item_move {
+    display: block;
+}
+
+
+/*更多*/
+
+.item_move {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 236px;
+    height: 82px;
+    background: #FF5000;
+    .similar {
+        margin: 0 auto;
+        width: 120px;
+        margin-top: 15px;
+        line-height: 32px;
+        height: 32px;
+        font-size: 18px;
+        font-weight: normal;
+        border-bottom: 1px solid #FE964A;
+    }
+    p {
+        line-height: 22px;
+        font-size: 12px;
+        height: 22px;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+
+/*              内容end*/
+
+
+/*                  猜你喜欢结束*/

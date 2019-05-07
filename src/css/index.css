@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #cccccc3a;
+}
+
+
+/* header */
+
+#header {
+    height: 36px;
+    width: 100%;
+    background: red;
+    text-align: center;
+}
+
+
+/* logo */
+
+#logo {
+    background-color: #FFF;
+    padding-top: 24px;
+    height: 97px;
+    text-align: center;
+}
+
+
+/* nav */
+
+#nav {
+    width: 1190px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%)
+}
+
+
+/* banner */
+
+#banner {
+    width: 1190px;
+    margin: 0 auto;
+    height: 632px;
+}
+
+
+/* 二级导航 */
+
+.nav_two {
+    border: 1px solid #ff5000;
+    border-top: none;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    height: 522px;
+    width: 190px;
+}
+
+
+/* 轮播 */
+
+.Carousel {
+    width: 520px;
+    height: 280px;
+    border: 1px solid red;
+}

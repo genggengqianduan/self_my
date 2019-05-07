@@ -1,0 +1,580 @@
+@charset "UTF-8";
+
+/*              轮播加二级导航*/
+
+#banner {
+    width: 1190px;
+    margin: 0 auto;
+    height: 632px;
+    .main_banner {
+        float: left;
+        width: 900px;
+        height: 100%;
+        clear: left;
+    }
+}
+
+#banner::after {
+    display: block;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+    clear: both;
+}
+
+.main_banner_nav {
+    position: relative;
+    float: left;
+    width: 190px;
+    min-height: 0;
+    background-color: #FFF;
+}
+
+.sec_nav {
+    height: 522px;
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    width: 190px;
+}
+
+.sec_nav ul {
+    border: 1px solid #ff5000;
+    border-top: none;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    text-align: center;
+    li {
+        overflow: hidden;
+        line-height: 32px;
+        height: 32px;
+        padding-left: 25px;
+        padding-right: 19px;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        width: 145px;
+        color: #666;
+        a {
+            color: #666;
+        }
+    }
+}
+
+
+/*              轮播上下两部分*/
+
+.banner_top_bot {
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    height: 512px;
+    width: 520px;
+}
+
+
+/*              轮播上部分*/
+
+.banner_top {
+    width: 520px;
+    height: 280px;
+    overflow: hidden;
+    img {
+        display: block;
+    }
+}
+
+
+/*              轮播下部分*/
+
+.banner_bot {
+    width: 520px;
+    min-height: 0;
+    background-color: #FFF;
+}
+
+.banner_bot {
+    position: relative;
+    width: 520px;
+    height: 230px;
+    margin-top: 1px;
+    overflow: hidden;
+}
+
+
+/*              天猫小logo*/
+
+.banner_bot_top {
+    font-size: 14px;
+    padding-top: 11px;
+    border-bottom: 3px solid #ff1648;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+.banner_bot_top .inner {
+    height: 18px;
+    line-height: 18px;
+    position: relative;
+    .bg_tm {
+        width: 136px;
+        position: absolute;
+        height: 19px;
+        background-repeat: no-repeat;
+        background-position: 2px 0;
+        background-size: 122px 22px;
+        background: url("../img/tm.png") no-repeat;
+    }
+    em {
+        font-size: 12px;
+        color: #666;
+        position: relative;
+        margin-left: 136px;
+    }
+    strong {
+        position: absolute;
+        right: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        i {
+            font-style: normal;
+            color: #ff1648;
+        }
+    }
+}
+
+
+/*              天猫广告*/
+
+.tm_pic {
+    width: 520px;
+    overflow: hidden;
+    height: 201px;
+    .pic {
+        float: left;
+        overflow: hidden;
+        width: 520px;
+        display: block;
+        img {
+            display: block;
+            width: 251px;
+            height: 190px;
+            float: left;
+            margin-left: 9px;
+            margin-top: 6px;
+        }
+    }
+}
+
+
+/*              今日热卖 start*/
+
+.sub_today {
+    float: left;
+    width: 160px;
+    height: 512px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    .sub_today_1 {
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        width: 160px;
+        height: 280px;
+        *display: inline;
+        *zoom: 1;
+        font: 12px/1.5 tahoma, 'Hiragino Sans GB', 'microsoft yahei', sans-serif
+    }
+}
+
+.sub_today_bot {
+    height: 230px;
+    h5 {
+        font-size: 12px;
+        font-weight: 400;
+        background: #f1f1f1;
+        color: #a1a1a1;
+        line-height: 24px;
+        padding-top: 2px;
+    }
+}
+
+
+/*              淘宝头条*/
+
+.top_line {
+    width: 890px;
+    height: 100px;
+    min-height: 0;
+    background-color: #FFF;
+}
+
+.top_line_ {
+    padding: 14px 14px 12px 20px;
+    margin-top: 10px;
+    background: #fff;
+    position: relative;
+    h3 {
+        width: 180px;
+        height: 73px;
+        float: left;
+        background: url("https://img.alicdn.com/tfs/TB1KbhkbUgQMeJjy0FeXXXOEVXa-129-26.png") no-repeat;
+        em {
+            display: none;
+        }
+    }
+    p {
+        margin-top: 42px;
+        line-height: 24px;
+        height: 24px;
+        color: #999;
+        font-weight: 400;
+    }
+}
+
+
+/*              头条end*/
+
+
+/*              登录++start*/
+
+.register {
+    float: right;
+    width: 290px;
+    height: 623px;
+    margin-top: 10px;
+}
+
+.register_ {
+    background-size: 290px 145px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    min-height: 0;
+    background-color: #FFF;
+    position: absolute;
+}
+
+
+/*              登录*/
+
+.register_connet {
+    background-image: url("data:image/png;base64,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");
+    background-size: 290px 145px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 3px 0 10px 0;
+    height: 132px;
+    padding-right: inherit;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.register_connet_top {
+    position: relative;
+    height: 91px;
+    .register_connet_top_1 a {
+        display: inline-block;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        background-clip: padding-box;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        overflow: hidden;
+        cursor: pointer;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    span {
+        display: block;
+        line-height: 17px;
+        height: 17px;
+    }
+}
+
+
+/*              淘金币*/
+
+.tjb {
+    height: 17px;
+    line-height: 17px;
+    .ljb {
+        display: inline-block;
+        -webkit-border-radius: 9px;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 9px;
+        -moz-background-clip: padding;
+        border-radius: 9px;
+        background-clip: padding-box;
+        background: #ffe4db;
+        padding: 0 10px 0 20px;
+        position: relative;
+        border: none;
+        color: #ff5000!important;
+        .tbh_icon {
+            position: absolute;
+            top: 0;
+            display: block;
+            left: 0;
+            height: 16px;
+            width: 16px;
+            background-position: 0 -572.5px;
+        }
+    }
+}
+
+.tbh_icon {
+    background: url("https://img.alicdn.com/tfs/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png");
+}
+
+
+/*              注册+登录*/
+
+.register_login {
+    height: 40px;
+    overflow: hidden;
+    margin-top: 2px;
+    padding-left: 15px;
+}
+
+.register_login_btn {
+    height: 25px;
+    margin-top: 8px;
+    a {
+        width: 75px;
+        color: white;
+        display: inline-block;
+        background: #ff1648;
+    }
+}
+
+
+/*              登录  end */
+
+
+/*              举报专区 start*/
+
+.report a {
+    position: relative;
+    padding-left: 82px;
+    color: #f40;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    background: #ffe4dd;
+    font-size: 12px;
+}
+
+
+/*              举报专区  end*/
+
+
+/*              通知 start*/
+
+.notice {
+    height: 98px;
+    padding-top: 10px;
+    width: 290px;
+    min-height: 0;
+    background-color: #FFF;
+}
+
+.notice_title {
+    position: relative;
+    height: 24px;
+    margin-top: 4px;
+    overflow: hidden;
+    margin-right: -2px;
+    padding: 0 8px;
+    li {
+        float: left;
+        *display: inline;
+        line-height: 20px;
+        width: 32px;
+        text-align: center;
+        margin: 0 11px;
+    }
+}
+
+.notice_content {
+    margin: 0 12px;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 9px;
+    padding-bottom: 6px;
+    li {
+        float: left;
+        *display: inline;
+        line-height: 25px;
+        height: 25px;
+        width: 130px;
+        overflow: hidden;
+    }
+}
+
+
+/*              通知  end*/
+
+
+/*              小图标集合*/
+
+.gather {
+    min-height: 0;
+    height: 232px;
+    background-color: #FFF;
+}
+
+.gather_content {
+    position: relative;
+    border-top: 1px solid #f4f4f4;
+    ul {
+        width: 294px;
+        li {
+            width: 70px;
+            float: left;
+            width: 71px;
+            height: 75px;
+            border: 1px solid #f4f4f4;
+            border-left-color: transparent;
+            border-top-color: transparent;
+            a {
+                position: relative;
+                z-index: 11;
+                background: #FFF;
+                height: 75px;
+                width: 70px;
+                padding-top: 1px;
+                text-align: center;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.item_icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 11px;
+    background-repeat: no-repeat;
+}
+
+
+/*             循环！！*/
+
+@for $i from 0 through 11 {
+    .item_icon_#{$i} {
+        background-position: 0 $i*-44px;
+    }
+}
+
+
+/*         充话费 快捷通道*/
+
+.hidden_layer {
+    top: 76px;
+    display: block;
+    transition: border-color .1s;
+    z-index: 8888;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 288px;
+    height: 156px;
+    background: #fff;
+    border: 1px solid #F40;
+    outline: 0;
+    display: none;
+    .hidden_layer_ .close {
+        display: block;
+        z-index: 5;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        color: #999;
+        background-color: #fff;
+        font-family: iconfont!important;
+        .hidden_layer_content_title a {
+            padding: 3px 10px;
+            color: #666;
+        }
+    }
+}
+
+.hidden_layer_content_content {
+    position: absolute;
+    width: 280px;
+    left: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    span {
+        color: #F40;
+        font-weight: bold;
+    }
+    button {
+        display: inline-block;
+        margin: 0 10px 0 0;
+        padding: 3px 10px;
+        height: 30px;
+        line-height: 21px;
+        font-weight: 700;
+        color: #fff;
+        border: none;
+        background: #f40;
+        vertical-align: top;
+    }
+}
+
+
+/*              小图标集合 end*/
+
+
+/*              阿里APP*/
+
+.ali_app {
+    padding-top: 1px;
+    min-height: 0;
+    background-color: #FFF;
+    position: relative;
+    height: 110px;
+    width: 260px;
+    margin-left: 25px;
+}
+
+.ali_app_ {
+    position: relative;
+}
+
+.more {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ali_app_ li {
+    margin-right: 20px;
+    transition: all 0s;
+    position: relative;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 8px;
+    img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+/*               阿里APP end*/

@@ -1,0 +1,136 @@
+.banner-bd-left {
+    float: left;
+    width: 900px;
+    height: 100%; }
+  
+  .banner-bd-left-box {
+    float: left;
+    width: 900px;
+    height: 100%; }
+  
+  .banner-bd-hd {
+    height: 522px;
+    position: relative;
+    font-size: 14px;
+    width: 190px;
+    float: left;
+    background-color: #FFF; }
+    .banner-bd-hd ul {
+      border: 1px solid #ff5000;
+      border-top: none;
+      padding-top: 5px;
+      padding-bottom: 3px; }
+      .banner-bd-hd ul li {
+        overflow: hidden;
+        line-height: 32px;
+        height: 32px;
+        padding-left: 25px;
+        padding-right: 19px;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        width: 145px;
+        color: #666; }
+        .banner-bd-hd ul li:hover {
+          color: #ff5000;
+          background: #ffe4dc; }
+        .banner-bd-hd ul li a {
+          color: #666; }
+          .banner-bd-hd ul li a:hover {
+            color: #ff5000; }
+        .banner-bd-hd ul li i {
+          position: absolute;
+          right: 10px;
+          font-size: 12px; }
+  
+  .pic-hd img {
+    display: block; }
+.banner-bd-hd-nav {
+    transform: translateZ(0);
+    opacity: 0;
+    transition: 0.5;
+    position: absolute;
+    left: 188px;
+    top: 0;
+    padding: 0 0 0 18px;
+    width: 692px;
+    height: 518px;
+    border: 2px solid #F94A14;
+    box-shadow: 2px 2px 0 #dcdadb;
+    background-color: #FFF;
+    color: #333;
+    font-size: 12px;
+    z-index: 22; }
+    .banner-bd-hd-nav .banner-bd-hd-nav-left {
+      padding-top: 10px;
+      width: 415px;
+      overflow: hidden;
+      padding-right: 12px;
+      padding-left: 10px;
+      float: left; }
+      .banner-bd-hd-nav .banner-bd-hd-nav-left .banner-bd-hd-nav-hd {
+        margin-bottom: 5px; }
+        .banner-bd-hd-nav .banner-bd-hd-nav-left .banner-bd-hd-nav-hd h5 {
+          position: relative;
+          height: 36px;
+          line-height: 36px;
+          font-size: 16px;
+          color: #333; }
+          .banner-bd-hd-nav .banner-bd-hd-nav-left .banner-bd-hd-nav-hd h5 .h5 {
+            color: #3C3C3C; }
+          .banner-bd-hd-nav .banner-bd-hd-nav-left .banner-bd-hd-nav-hd h5 span {
+            font-size: 12px;
+            right: -6px;
+            position: absolute;
+            font-weight: 400;
+            top: 0; }
+        .banner-bd-hd-nav .banner-bd-hd-nav-left .banner-bd-hd-nav-hd p {
+          height: 104px;
+          overflow: hidden;
+          padding-bottom: 33px;
+          line-height: 26px; }
+          .banner-bd-hd-nav .banner-bd-hd-nav-left .banner-bd-hd-nav-hd p a {
+            display: inline-block;
+            margin-right: 12px;
+            white-space: nowrap;
+            color: #ff5000; }
+  
+  .banner-bd-hd-nav-right {
+    float: left;
+    width: 253px;
+    border-left: 1px solid #f4f4f4;
+    position: relative;
+    height: 498px;
+    padding-top: 20px; }
+    .banner-bd-hd-nav-right h3 {
+      line-height: 18px;
+      color: #333;
+      font-size: 14px;
+      text-align: center;
+      font-weight: 400; }
+    .banner-bd-hd-nav-right .banner-bd-hd-nav-right-bd a {
+      display: block;
+      width: 97px;
+      height: 143px;
+      padding: 10px 0 0 20px;
+      overflow: hidden;
+      float: left;
+      color: #3C3C3C; }
+      .banner-bd-hd-nav-right .banner-bd-hd-nav-right-bd a .banner-bd-hd-nav-right-pic {
+        width: 97px;
+        height: 97px;
+        overflow: hidden;
+        background: #4f4f4f; }
+        .banner-bd-hd-nav-right .banner-bd-hd-nav-right-bd a .banner-bd-hd-nav-right-pic img {
+          display: block;
+          width: 98px;
+          height: 97px;
+          opacity: .9; }
+      .banner-bd-hd-nav-right .banner-bd-hd-nav-right-bd a h5 {
+        height: 26px;
+        line-height: 26px;
+        font-size: 12px;
+        overflow: hidden;
+        font-weight: 400;
+        color: #999; }
+  

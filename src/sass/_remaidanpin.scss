@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*              热卖单品*/
+
+@mixin list_mi() {
+    float: left;
+    width: 197px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #f4f4f4;
+    margin: -1px 0 0 -1px;
+}
+
+.rmdp {
+    width: 1190px;
+    clear: both;
+    min-height: 962px;
+    overflow: hidden;
+    h3 {
+        position: relative;
+        height: 22px;
+        line-height: 22px;
+        margin: 17px 18px;
+        font-size: 20px;
+        color: #ff242d;
+    }
+}
+
+.rmdp h3::before {
+    content: "";
+    position: relative;
+    float: left;
+    top: 2px;
+    width: 4px;
+    height: 16px;
+    background: #ff242d;
+    background: linear-gradient(to bottom, #ff7436, #ff0000);
+    margin-right: 7px;
+}
+
+
+/*         小导航     */
+
+.rmdp_nav {
+    padding: 0 0 13px 18px;
+    overflow: hidden;
+    position: relative;
+    .rmdp_nav_inner {
+        float: left;
+        display: block;
+        height: 20px;
+        line-height: 20px;
+        overflow: hidden;
+        max-width: 1110px;
+        a {
+            display: inline-block;
+            // float: left;
+            margin-bottom: 10px;
+            padding-right: 15px;
+            color: #999;
+            height: 14px;
+            line-height: 14px;
+            font-size: 12px;
+        }
+    }
+}
+
+
+/*          小导航  end    */
+
+
+/*           内容   */
+
+#rmdp_inner_lis_3 {
+    width: 196px;
+}
+
+.rmdp_inner {
+    height: 703px;
+    margin-left: 1px;
+    .rmdp_inner_lis {
+        @include list_mi();
+        .image {
+            display: block;
+            overflow: hidden;
+            // vertical-align: middle;
+            text-align: center;
+            font-size: 0;
+            position: relative;
+            img {
+                width: 197px;
+                height: 197px;
+            }
+        }
+        .rmdp_js1 {
+            display: block;
+            height: 40px;
+            line-height: 20px;
+            overflow: hidden;
+            margin: 8px 0;
+            color: #666;
+            font-size: 14px;
+        }
+        .rmdp_js2 {
+            height: 18px;
+            margin-bottom: 17px;
+            color: #999;
+        }
+    }
+}
+
+
+/*价格+销量*/
+
+.rmdp_js3 {
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    .js3_jg {
+        color: #ff5000;
+        margin-right: 3px;
+        em {
+            font-size: 22px;
+            margin-left: 2px;
+        }
+    }
+    .js3_jgh {
+        color: #999;
+        font-family: arial;
+        text-decoration: line-through;
+    }
+    .js3_xl {
+        color: #999;
+        float: right;
+        display: block;
+        margin-top: 3px;
+    }
+}
+
+.rmdp_inner_lis:hover {
+    border: 1px solid #ff5000;
+    z-index: 1;
+}
+
+
+/*          热卖单品    广告*/
+
+.rmdp_bot {
+    margin-left: 18px;
+    height: 170px;
+    li {
+        float: left;
+        width: 375px;
+        margin: 20px 11px 0 2px;
+        font-size: 0;
+        border: 1px solid transparent;
+    }
+}
+
+
+/*           热卖单品    广告   end       */
+
+
+/*           内容end   */
+
+
+/*             热卖单品   end */
