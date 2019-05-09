@@ -1,0 +1,13 @@
+@font-face {
+    font-family: global-iconfont;
+    src: url(fonts/font_1404888168_2057645.woff) format("woff")
+}
+
+.site-nav-icon {
+    font-family: global-iconfont;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscaleFont type;
+    margin-right: 5px;
+    color: #c21a1a;
+}

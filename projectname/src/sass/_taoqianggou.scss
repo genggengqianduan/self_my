@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*淘抢购 start*/
+
+.tqg {
+    height: 264px;
+    overflow: hidden;
+    margin-top: 10px;
+    .tqg_inner {
+        height: 264px;
+        overflow: hidden;
+    }
+}
+
+
+/*标题  start*/
+
+.h_three {
+    a {
+        float: left;
+        display: inline;
+        img {
+            height: 22px;
+            margin-right: 5px;
+        }
+    }
+    p {
+        margin-left: 6px;
+        line-height: 24px;
+        height: 24px;
+        color: #999;
+        font-weight: 400;
+        span {
+            cursor: pointer;
+        }
+    }
+}
+
+.tqg_inner {
+    ul {
+        list-style: none;
+        li {
+            float: left;
+            width: 355px;
+            padding: 0 20px 0 20px;
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+.img_st {
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+
+.img_inner {
+    margin-left: 194px;
+    overflow: hidden;
+    /*          图片标题*/
+    .img_title {
+        margin-top: 12px;
+        line-height: 28px;
+        color: #999;
+    }
+    /*         进度条*/
+    .jdt {
+        border-radius: 3px;
+        background-clip: padding-box;
+        background: #FFE4Dc;
+        position: relative;
+        width: 159px;
+        height: 6px;
+        .dq_jd {
+            position: absolute;
+            width: 5%;
+            left: 0;
+            top: 0;
+            height: 6px;
+            border-radius: 3px;
+            background-clip: padding-box;
+            background: #FE3338;
+        }
+    }
+    /*             当前具体值*/
+    .juti {
+        line-height: 28px;
+        height: 28px;
+        color: #FE3338;
+        .letter {
+            float: right;
+            display: inline;
+            width: 100px;
+            text-align: right;
+        }
+    }
+    /*                   价格*/
+    .tqg_jg {
+        margin-top: 34px;
+        .yan {
+            font-size: 12px;
+        }
+        .money {
+            font-size: 20px;
+            color: #ff5000;
+        }
+    }
+}
+
+
+/*淘抢购 end*/

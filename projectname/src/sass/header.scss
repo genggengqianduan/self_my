@@ -1,0 +1,109 @@
+    @charset "UTF-8";
+  
+    // @font-face {
+    //     font-family: iconfont;
+    //     src: url(http//at.alicdn.com/t/font_403341_n8tj33yn5peng66r.woff) format("woff");
+    // }
+    
+
+   
+@font-face {
+    font-family: iconfont;
+    src: url(fonts/font_1451959379_8626566.woff) format("woff")
+}
+
+.iconfont {
+    font-family: iconfont !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    color: #f40;
+    font-weight: 400
+}
+
+
+
+    .wrapper {
+        width: 1190px;
+        margin: 0 auto;
+    }
+    
+    .clear::after {
+        display: block;
+        height: 0;
+        width: 0;
+        clear: both;
+        overflow: hidden;
+    }
+    
+    @import '_head';
+    /*logo*/
+    
+    #logo {
+        padding: 10px 0 0;
+        height: 85px;
+        .logo_l {
+            float: left;
+            width: 162px;
+            padding-top: 0;
+            line-height: 18px;
+            position: relative;
+            img {
+                padding-right: 7px;
+                float: left;
+                padding-top: 20px;
+                width: 162px;
+            }
+        }
+        .dianpu {
+            float: left;
+            position: relative;
+            padding: 15px 0 0;
+            height: 50px;
+            .dplogo {
+                float: left;
+                padding: 0 10px;
+                height: 38px;
+                border-left: 1px solid #f0f0f0;
+                width: auto;
+            }
+        }
+    }
+    
+    .dp_js {
+        height: 25px;
+        width: 80px;
+        .dp_icon {
+            display: inline-block;
+            vertical-align: top;
+            padding: 0;
+            height: 14px;
+            line-height: 14px;
+            font-weight: 700;
+            background-color: #f4c985;
+            border: 1px solid #e7ba77;
+            border-radius: 2px;
+            color: #856651;
+            text-align: center;
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+    
+    .talk_xt {
+        background-position: -110px 0;
+        background-image: url("https://img.alicdn.com/tps/i1/T15AD7FFFaXXbJnvQ_-130-60.gif");
+        a {
+            height: 22px;
+            line-height: 19px;
+            overflow: hidden;
+            background-color: #fff;
+            font-size: 12px;
+            font-family: "\5b8b\4f53";
+            color: #333;
+            font-weight: 700;
+        }
+    }
+    
+    @import '_footer';

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/*        品质生活 start      */
+
+.h_live {
+    width: 590px;
+    height: 768px;
+    float: left;
+}
+
+
+/*           左边           */
+
+
+/*标题*/
+
+.h_live_l h3 {
+    color: #28ABFF;
+    border-bottom: 1px solid #f4f4f4;
+    em {
+        @include em();
+    }
+}
+
+.h_live_l .h_live_title:before {
+    background: #28ABFF;
+}
+
+
+/*内容*/
+
+.h_live_l_1 {
+    width: 294px;
+}
+
+.h_live_l_1_img {
+    padding: 19px;
+    border: 1px solid transparent;
+    width: 254px;
+    height: 317px;
+    a {
+        display: block;
+        height: 317px;
+        width: 254px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+}
+
+.item_st {
+    height: 117px;
+    border: 1px solid transparent;
+    border-top-color: #f4f4f4;
+    border-right-color: #f4f4f4;
+    display: block;
+    .item_js {
+        padding-top: 35px;
+        float: left;
+        padding-left: 40px;
+        width: 122px;
+        font-size: 14px;
+        .title {
+            font-size: 18px;
+            color: #333;
+        }
+    }
+}
+
+
+/*          左边第二部分    */
+
+.h_live_l_2 {
+    margin-left: 294px;
+    border-left: 1px solid #f4f4f4;
+    .h_live_l_2_bor {
+        padding: 30px 19px;
+        height: 176px;
+        h4 {
+            font-weight: normal;
+            color: #333;
+            padding-left: 10px;
+            line-height: 32px;
+            height: 32px;
+        }
+        .h_live_l_2_mar {
+            margin-top: 24px;
+        }
+        img {
+            display: block;
+            width: 120px;
+            height: 120px;
+        }
+    }
+}
+
+
+/*         左边end          */
+
+
+/*           右边            */
+
+.h_live_r {
+    margin-left: 10px;
+}
+
+
+/*           右边结束         */
+
+
+/*      品质生活   end          */
