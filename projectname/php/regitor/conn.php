@@ -7,7 +7,7 @@ define('NAME','root');//定义常量
 define('PASS','');//定义常量
 $sjk=mysql_connect(TIT,NAME,PASS); //链接数据库
 
-mysql_select_db('user');//选择数据库
+mysql_select_db('yonghu');//选择数据库
 mysql_query('SET NAMES UTF8');//设置获取到的内容编码
 ?>
 

@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/*字体*/
+
+// @font-face {
+//     font-family: iconfont;
+//     src: url(http//at.alicdn.com/t/font_403341_n8tj33yn5peng66r.woff) format('woff')
+// }
+
+
+/*              有好货*/
+
+.public {
+    min-height: 0;
+    background-color: #FFF;
+}
+
+.has_goods {
+    margin-top: 10px;
+    height: 658px;
+}
+
+.has_goods:after {
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+
+/*左边*/
+
+.has_goods_l {
+    width: 590px;
+    float: left;
+    height: 658px;
+    p {
+        line-height: 24px;
+        height: 24px;
+        color: #999;
+        font-weight: 400;
+        .qr_wrapper {
+            position: relative;
+            float: left;
+            width: 26px;
+            text-align: center;
+            height: 24px;
+        }
+        .a_all {
+            position: absolute;
+            left: -17px;
+            top: 20px;
+            opacity: 0;
+            width: 66px;
+            height: 80px;
+            padding: 10px;
+            background: #fff;
+            z-index: -1;
+            border: 1px solid #f0f0f0;
+            transition: all .2s;
+        }
+        .subtitle {
+            line-height: 24px;
+            color: #999;
+            font-weight: 400;
+        }
+    }
+}
+
+.h_three {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    img {
+        height: 24px;
+        margin-right: 5px;
+        float: left;
+        display: inline;
+    }
+}
+
+.changer {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+    color: #999;
+    width: 100px;
+    text-align: right;
+    .changer_inner {
+        cursor: pointer;
+        font-weight: 400;
+    }
+}
+
+
+/*内容*/
+
+.goods_item {
+    overflow: hidden;
+    padding-left: 21px;
+    a {
+        display: block;
+        float: left;
+        width: 180px;
+        overflow: hidden;
+        margin: 0 4px 17px 0;
+        img {
+            width: 100%;
+            height: 180px;
+            display: block;
+        }
+    }
+    .item_inner {
+        overflow: hidden;
+        padding: 0 4px 0 6px;
+        h4 {
+            margin-top: 5px;
+            font-size: 16px;
+            height: 28px;
+            overflow: hidden;
+            line-height: 28px;
+            font-weight: normal;
+        }
+        .js {
+            line-height: 24px;
+            color: #999;
+            font-size: 14px;
+            overflow: hidden;
+            height: 24px;
+        }
+        .appreise {
+            line-height: 22px;
+            height: 22px;
+            margin-top: 12px;
+            color: #35b1ff;
+            .tb_ifont {
+                font-family: iconfont!important;
+                font-size: 14px;
+                font-style: normal;
+                display: inline-block;
+                text-decoration: none;
+                -webkit-font-smoothing: antialiased;
+            }
+        }
+    }
+}
+
+.the_shop {
+    width: 590px;
+    float: left;
+    margin-left: 10px;
+    height: 658px;
+}
+
+
+/*有好货end*/

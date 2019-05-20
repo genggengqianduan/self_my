@@ -51,7 +51,11 @@
 
         </div>
     </header>
+
+
+    
     <!-- banner图 -->
+
     <div id="banner">
         <div class="wrapper">
 
@@ -59,21 +63,21 @@
                 <div class="input-wrap">
                     <!-- 标准登陆框 -->
                     <div class="input-title">密码登陆</div>
-                    <form>
+                    <form method="post">
                         <div class="input-username">
                             <label>
                                 <i class="iconfont" title="会员名"></i>
                             </label>
-                            <input type="text" placeholder="会员名/邮箱/手机号">
+                            <input type="text" placeholder="会员名/邮箱/手机号" id="username" name="username">
                         </div>
                         <div class="input-username password">
                             <label>
                                 <i class="icon iconfont" title="登录密码"></i>
                             </label>
-                            <input type="password">
+                            <input type="password" id="password" name="password">
                         </div>
                         <div class="input-username submit">
-                            <button type="submit">登 录</button>
+                            <button type="submit" id="submit">登 录</button>
                         </div>
                     </form>
                     <ul>
@@ -160,6 +164,10 @@
         </div>
         <div class="box"></div>
     </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="http://10.31.163.75:1234/projectname/src/script/js/jquery.cookie.js"></script>
+    <script src="script/js/login.js"></script>
 </body>
 
 </html>

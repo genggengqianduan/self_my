@@ -14,11 +14,13 @@ body {
     border: 2px solid #dedede;
     border-top: 2px solid #ff4a00;
     background-color: #FFF;
-    margin: 0 auto;
+    margin-top:-280px;
+    margin-left:-370px;
     z-index: 999999;
     position: absolute;
-    left: 397.5px;
-    top: 193.5115px;
+    left: 50%;
+    top: 50%;
+
 }
 
 .registor>div>a {
@@ -318,4 +320,7 @@ font-size: 14px}
             letter-spacing: 20px;
             text-align: center;
             
+        }
+        .error{
+            color:red;
         }

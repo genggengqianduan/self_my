@@ -5,23 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>淘宝网 - 淘！我喜欢</title>
+    <meta name="description" content="淘宝网 - 亚洲较大的网上交易平台，提供各类服饰、美容、家居、数码、话费/点卡充值… 数亿优质商品，同时提供担保交易(先收货后付款)等安全交易保障服务，并由商家提供退货承诺、破损补寄等消费者保障服务，让你安心享受网上购物乐趣！"
+    />
+    <meta name="keyword" content="淘宝,掏宝,网上购物,C2C,在线交易,交易市场,网上交易,交易市场,网上买,网上卖,购物网站,团购,网上贸易,安全购物,电子商务,放心买,供应,买卖信息,网店,一口价,拍卖,网上开店,网络购物,打折,免费开店,网购,频道,店铺"
+    />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="sass/header.css">
     <link rel="stylesheet" href="css/registor.css">
     <style>
         @font-face {
-            font-family: iconfont;
-            src: url(fonts/font_1451959379_8626566.woff) format("woff");
+            font-family: global-iconfont;
+            src: url(fonts/font_1404888168_2057645.woff) format("woff")
         }
 
-        .iconfont {
-            font-family: iconfont !important;
+        .site-nav-icon {
+            font-family: global-iconfont;
             font-style: normal;
             -webkit-font-smoothing: antialiased;
-            -webkit-text-stroke-width: .2px;
-            color: #f40;
-            font-weight: 400;
+            -moz-osx-font-smoothing: grayscaleFont type;
+            margin-right: 5px;
+            color: #c21a1a;
         }
     </style>
 </head>
@@ -64,11 +68,13 @@
         <!-- 注册表单 -->
         <div class="content">
             <div class="content-box">
-                <form method="post" id="form_post">
+                <form method="post" id="form_post" action="http://10.31.163.75:1234/projectname/php/regitor/yanzheng.php">
                     <div class="form-group">
                         <div class="form-input">
                             <span>登陆名</span>
-                            <input type="text" placeholder="请设置你的用户名" id="username">
+                            <input type="text" name="username"placeholder="请设置你的登录名" id="username"/>
+                        <!--<span>(必填，3-15字符长度，支持汉字、字母、数字及_)</span>-->
+                        <label id="username-error" class="error" for="username">(3-15字符长度，支持汉字、字母、数字及_)</label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -78,23 +84,23 @@
                         </div>
                         <div class="text-password">
                             <span>登陆密码</span>
-                            <input type="password" placeholder="请设置你的登陆密码" id="password">
+                            <input type="password" name="password" placeholder="请设置你的密码" id="password" />
+                            <label id="password-error" class="error" for="password">(必填，不得少于6位)</label>
                         </div>
                         <div class="text-password">
                             <span>密码确认</span>
-                            <input type="password" placeholder="请再次输入你的密码" id="repass">
+                            <input type="password" name="repass"placeholder="请再次输入你的密码" id="repass"/>
+                            <label id="repass-error" class="error" for="repass">(必填，不得少于6位)</label>
                         </div>
-                        <div class="text-password">
-                                <span>请输入验证码</span>
-                                <input type="password" placeholder="验证码输入">
-                            </div>
-                            <div id="yzm">
-                                <p></p>
-                            </div>
+                        <div class="form-input">
+                            <span>登录名</span>
+                            <input type="text" name="userid"placeholder="会员名一但设置成功，无法修改" id="userid"/>
+					<label id="userid-error" class="error" for="userid">(3-15字符长度，支持汉字、字母、数字及_)</label>
+                        </div>
                     </div>
                     <div class="form-group">
                         <div>
-                            <button type="submit" class="sub">提交</button>
+                            <input type="submit" value="注册" class="sub" name="submit">
                         </div>
                     </div>
                 </form>
@@ -159,8 +165,8 @@
     </div>
     <div id="footer"></div>
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
-    <script src="script/js/publick.js"></script>   
-    <script src="script/js/jquery.validate.js"></script>
+    <script src="http://10.31.163.75:1234/projectname/src/script/js/jquery.validate.js"></script>
+    <script src="script/js/publick.js"></script>
     <script src="script/js/registor.js"></script>
 </body>
 

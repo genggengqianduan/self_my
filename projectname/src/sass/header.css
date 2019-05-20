@@ -1,14 +1,6 @@
 @charset "UTF-8";
-@font-face {
-  font-family: iconfont;
-  src: url(fonts/font_1451959379_8626566.woff) format("woff"); }
-.iconfont {
-  font-family: iconfont !important;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: .2px;
-  color: #f40;
-  font-weight: 400; }
+
+
 
 .wrapper {
   width: 1190px;
@@ -59,7 +51,7 @@ body {
   float: left;
   width: 12px;
   height: 6px;
-  line-height: 6px;
+  line-height: 6px; 
   overflow: hidden;
   margin-top: 16px; }
   .head-icon span {
@@ -69,6 +61,20 @@ body {
     color: #9c9c9c; }
 
 /*---------head-right--------------------*/
+
+
+.two_nav{
+  width: 100%;
+  height:100px;
+  background: red;
+  display: none;
+  position: relative;
+  z-index: 1000;
+} 
+/*
+.head-right li:hover .two_nav{
+    display: block;
+} */
 .head-right {
   float: right; }
   .head-right li {

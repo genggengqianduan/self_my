@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@mixin em() {
+    line-height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*                  时尚爆料王  start*/
+
+
+/*                        左边   start*/
+
+.fanshion_l {
+    width: 840px;
+    height: 290px;
+    float: left;
+    padding: 0;
+}
+
+.bar_title {
+    position: relative;
+    padding-left: 32px;
+    margin-top: 5px;
+    line-height: 48px;
+    font-size: 20px;
+}
+
+.bar_title::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 16px;
+    top: 16px;
+    left: 20px;
+}
+
+
+/*标题*/
+
+.fanshion_title {
+    color: #AD45Df;
+    border-bottom: 1px solid #f4f4f4;
+    em {
+        @include em();
+    }
+}
+
+.fanshion_l_inner .fanshion_title:before {
+    background: #8558d6;
+}
+
+
+/*标题  end*/
+
+
+/*                       左边    end */
+
+.fanshion_l_item {
+    width: 278px;
+    border: 1px solid transparent;
+    border-right: 1px solid #f4f4f4;
+    border-bottom-color: #fff;
+    float: left;
+    height: 234px;
+    .fanshion_l_item_title {
+        padding-left: 20px;
+        h4 {
+            margin-top: 27px;
+            font-size: 18px;
+            color: #333;
+            line-height: 26px;
+            height: 26px;
+            font-weight: normal;
+        }
+    }
+    .fanshion_l_item_img {
+        margin-top: 12px;
+        padding-left: 16px;
+    }
+}
+
+.item_border:hover {
+    border: 1px red solid;
+    z-index: 33;
+}
+
+
+/*                      右边    start*/
+
+.fanshion_r {
+    float: right;
+    width: 298px;
+    height: 248px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+}
+
+
+/*                          右边     end*/
+
+
+/*                      时尚爆料王  end*/

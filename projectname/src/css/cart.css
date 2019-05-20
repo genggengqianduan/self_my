@@ -172,6 +172,7 @@ margin-top:30px;
         padding-left: 2px;
         font-weight: 700;}
         .right-nav a{    background: #aaa;
+            cursor: pointer;
             color: #fff;
             cursor: not-allowed;display: inline-block;
             width: 55px;border-radius: 2px;
@@ -200,10 +201,230 @@ margin-top:30px;
         line-height: 200em;
         overflow: hidden;
         cursor: pointer;}
-    .xinxi div{padding-left: 91px;width: 342px}
+    .xinxi div{margin-left: 20px; width: 342px}
     .init{width: 116px;
         padding-right: 40px;}
         .init div{padding: 0 0 0 10px}
 .shop-car-pic{width: 130px;
 }
 .shop-car-pic div{    padding: 0 0 0 10px}
+.clear-box {
+    clear: both;
+}
+
+.dele{width: 70px;
+height: 30px;
+float: left;
+margin-top:10px;
+margin-left: 10px;
+}
+a {
+    text-decoration: none
+}
+
+li {
+    list-style: none;
+}
+em{font-style: normal}
+b{font-style: normal}
+.left{float: left;}
+.right{float: right;}
+
+/* .goods{
+    width: 100%;
+    height: 100px;
+    background: red;
+}
+
+.goods_img{
+    width: 500px;
+    padding-left:90px; 
+}
+.goods_img img{
+    width: 100px;
+    height: 100px;
+} */
+
+/* padding-left: 91px;
+width: 342px
+} */
+
+.init {
+width: 116px;
+padding-right: 40px;
+}
+
+.init div {
+padding: 0 0 0 10px
+}
+
+.shop-car-pic {
+width: 130px;
+}
+
+.shop-car-pic div {
+padding: 0 0 0 10px
+}
+
+/* 购物车渲染 */
+
+.shop-car-box {
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-top: 0;
+background: #FCFCFC;
+
+}
+
+.car-chk {
+padding-top: 20px;
+width: 50px;
+}
+
+.car-chk-box div {
+margin: 0 10px 0 0;
+width: 15px;
+height: 15px;
+display: inline-block;
+}
+
+.shop-ca-box input {}
+
+.car-pic {
+width: 342px
+}
+
+.car-pic>div {
+padding-top: 20px
+}
+
+.car-pic-left {
+width: 80px;
+height: 80px;
+border: 1px solid #eee;
+float: left;
+}
+
+.car-pic-left img {
+width: 100%;
+height: 100%
+}
+
+.car-pic-right {
+margin: -3px 0 0 96px;
+padding-right: 25px;
+}
+
+.car-pic-right p {
+margin: 5px 5px 5px 0;
+}
+
+.car-pic-right span {
+display: inline-block;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+.car-init {
+width: 221px;
+height: 60px
+}
+
+.car-pir {
+padding-top: 20px;
+width: 130px;
+text-align: center
+}
+
+.car-pir em {
+color: #9c9c9c;
+text-decoration: line-through;
+font-family: Verdana, Tahoma, arial
+}
+
+.car-pir i {
+color: #3c3c3c;
+font-weight: 700;
+font-family: Verdana, Tahoma, arial;
+}
+
+.car-num {
+padding-top: 20px;
+width: 120px
+}
+
+.car-num span {
+display: inline-block;
+}
+
+.num-left {
+margin-left: 20px
+}
+
+.num-left, .num-right {
+background: #fff0e7;
+border-color: #ffe1d3;
+cursor: pointer;
+height: 23px;
+width: 17px;
+border: 1px solid #e5e5e5;
+text-align: center;
+line-height: 23px;
+}
+
+.car-num-box {
+border-color: #efbba9;
+color: #6c6c6c;
+width: 39px;
+height: 15px;
+line-height: 15px;
+border: 1px solid #aaa;
+text-align: center;
+padding: 4px 0;
+background-color: #fff;
+z-index: 2;
+}
+
+.car-money {
+padding-top: 20px;
+width: 120px;
+text-align: center;margin-left:10px
+}
+.car-money span{color: #f40;
+font-weight: 700;}
+.car-del{
+    padding-top: 20px;
+    width: 120px;
+    text-align: center;
+    margin-left:30px
+}
+.car-del a{
+    background-image: linear-gradient(to right, #ff5000 0, #ff6f06 100%);
+background-repeat: repeat-x;
+border-radius: 4px;
+background-clip: padding-box;
+font-size: 14px;
+font-weight: 700;
+width: 92px;
+text-align: center;
+color: #FFF;
+display: block;
+line-height: 25px;
+}
+
+i{
+    font-style: normal;
+}
+
+.goods{
+    display: none;
+    border-top: 1px solid red;
+}
+
+.right-nav .active{
+    background: orangered;
+}
+
+.suan{
+    cursor: pointer;
+}
